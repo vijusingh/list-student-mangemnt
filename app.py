@@ -84,6 +84,11 @@ def about():
 def contact():
     return render_template('contact.html')
 
+# 📞 Contact Page
+@app.route('/services')
+def services():
+    return render_template('services.html')
+
 # 🚀 Run Flask App
 if __name__ == '__main__':
     with app.app_context():

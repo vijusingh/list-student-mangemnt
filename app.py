@@ -84,7 +84,7 @@ def about():
 def contact():
     return render_template('contact.html')
 
-# 📞 Contact Page
+# 📞 Services Page
 @app.route('/services')
 def services():
     return render_template('services.html')
